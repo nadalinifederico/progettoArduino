@@ -1,0 +1,108 @@
+body {
+    font-family: 'Arial', sans-serif; /* Imposta il font del testo */
+    line-height: 1.6; /* Altezza delle righe per migliorare la leggibilità */
+    margin: 0; /* Rimuove il margine predefinito */
+    padding: 0; /* Rimuove il padding predefinito */
+    background-color: #f4f4f9; /* Colore di sfondo della pagina */
+    color: #333; /* Colore del testo */
+}
+
+.container {
+    max-width: 900px; /* Larghezza massima del contenitore */
+    margin: 20px auto; /* Centra il contenitore orizzontalmente */
+    padding: 20px; /* Spazio interno del contenitore */
+    background-color: #ffffff; /* Colore di sfondo del contenitore */
+    border-radius: 10px; /* Angoli arrotondati */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Ombreggiatura leggera */
+}
+.navbar ul {
+    list-style: none;/*Rimuove i puntini della lista*/
+    display: flex;/*Applica Flexbox per disporre gli elementi della lista in riga*/
+    justify-content: center;/*Centra gli elementi al centro orizzontalmente*/
+    margin: 0;/*Elimina il marigne esterno della lista*/
+    padding: 0;/*Elimina il padding interno della lista*/
+    gap: 20px;/* Aggiunge spazio uniforme tra gli elementi della lista */
+}
+
+.navbar ul li {
+    margin: 0 15px;/*Aggiunge un margine orizzontale di 15px, nessun margine verticale*/
+}
+
+.main-title {
+    text-align: center; /* Centra il titolo */
+    color: #1e88e5; /* Colore del testo */
+    font-size: 2.5em; /* Dimensione del font */
+    margin-bottom: 20px; /* Spazio sotto il titolo */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Ombreggiatura del testo */
+}
+
+p {
+    margin-bottom: 15px; /* Spazio sotto ogni paragrafo */
+}
+
+ul {
+    list-style-type: none; /* Rimuove i punti elenco */
+    padding: 0; /* Rimuove il padding interno */
+}
+
+ul li {
+    margin-bottom: 15px; /* Spazio sotto ogni elemento della lista */
+}
+
+#ridim-immagini li {
+    display: flex; /* Allinea il contenuto orizzontalmente */
+    align-items: center; /* Centra verticalmente il contenuto */
+    margin-bottom: 20px; /* Spazio sotto ogni elemento */
+    background-color: #f9f9f9; /* Colore di sfondo degli elementi */
+    padding: 10px; /* Spazio interno degli elementi */
+    border-radius: 8px; /* Angoli arrotondati */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Ombreggiatura leggera */
+}
+
+#ridim-immagini span {
+    flex: 1; /* Occupa lo spazio disponibile */
+    margin-right: 20px; /* Spazio tra il testo e l'immagine */
+    font-size: 1em; /* Dimensione del font */
+}
+
+#ridim-immagini img {
+    max-width: 120px; /* Larghezza massima delle immagini */
+    height: auto; /* Mantiene le proporzioni */
+    border-radius: 5px; /* Angoli arrotondati */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Ombreggiatura leggera */
+}
+
+.section-title {
+    font-size: 1.8em; /* Dimensione del font del titolo */
+    color: #1976d2; /* Colore del testo */
+    margin-top: 30px; /* Spazio sopra il titolo */
+    margin-bottom: 15px; /* Spazio sotto il titolo */
+    text-align: center; /* Centra il titolo */
+    border-bottom: 2px solid #1976d2; /* Linea sotto il titolo */
+    padding-bottom: 1px; /* Spazio sotto il testo del titolo */
+}
+
+.gallery-images {
+    display: flex; /* Allinea le immagini in fila */
+    justify-content: center; /* Centra le immagini orizzontalmente */
+    gap: 20px; /* Spazio tra le immagini */
+    margin-top: 20px; /* Spazio sopra le immagini */
+}
+
+.gallery-images img {
+    max-width: 200px; /* Larghezza massima delle immagini */
+    height: auto; /* Mantiene le proporzioni */
+    border-radius: 8px; /* Angoli arrotondati */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Ombreggiatura leggera */
+}
+
+h2.section-title {
+    margin-top: 40px; /* Spazio sopra il titolo */
+}
+
+p strong {
+    color: #1e88e5; /* Colore del testo in grassetto */
+}
+p {
+    font-size: 19px;/*Imposta la dimensione del testo dei paragrafi a 19px*/
+}
